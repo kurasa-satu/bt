@@ -9,3 +9,21 @@ setInterval(function() {
   axios.get(h).then(console.log("Kapten logs"))
  })
 },100*1000)
+
+setInterval(function() {
+ au2.forEach(h => {
+  axios.get(h).then(console.log("Tendo logs"))
+ })
+},100*1000)
+
+setInterval(function() {
+ au3.forEach(h => {
+  axios.get(h).then(console.log("Nagato logs"))
+ })
+},100*1000)
+
+setInterval(function() {
+ au4.forEach(h => {
+  axios.get(h).then(console.log("Yahiko logs"))
+ })
+},100*1000)
